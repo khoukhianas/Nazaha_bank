@@ -1,0 +1,37 @@
+<<<<<<< HEAD
+# Node modules (frontend dependencies)
+node_modules/
+
+# Python virtual environment
+bank_app_env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Database file (optional, depending on whether you want to include it)
+db.sqlite3
+
+# Other IDE and system files
+.vscode/
+.DS_Store
+=======
+# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
+# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+
+# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Additional Ruby/bundler ignore for when you run: bundle install
+/vendor
+
+# Specific ignore for GitHub Pages
+# GitHub Pages will always use its own deployed version of pages-gem 
+# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
+# counterproductive to check this file into the repository.
+# Details at https://github.com/github/pages-gem/issues/768
+Gemfile.lock
+>>>>>>> 6732ba1973ecf7a8aac6d66e021d4d3c2e6fefc2
